@@ -162,7 +162,7 @@ Bootstrapping is when a user chooses to install the manager using the CLI. In th
 ## Blueprint Upload
 The first step for the user must take to install an application is to have the application orchestration plan (aka `blueprint`) uploaded to the manager and saved in its `file server`. This is done by using the GUI or the `cfy blueprints upload` command. The CLI then packs the blueprint YAML file folder to a `tar` file and uploads it through the Cloudify manager REST server. It is then stored in the Cloudify manager file server ([ngnix](ngnix.org))
 
-## Deploymeny Creation
+## Deployment Creation
 In order to deploy and manage an application you need to create a runtime data model in the manager. This is where the manager keeps the state of the application. To do so simply use the GUI or the CLI command: `cfy deployments create`
 
 ## Workflow Execution
